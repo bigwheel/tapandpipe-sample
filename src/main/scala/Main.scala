@@ -6,6 +6,6 @@ object Main {
     val a = 1
     a.tap(println)
 
-    a.pipe(println)
+    println(a.pipe(_ + 1))
   }
 }
